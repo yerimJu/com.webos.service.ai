@@ -27,7 +27,6 @@ lunaApiAirtouch* lunaApiAirtouch::pInstance = NULL;
 const LSMethod lunaApiAirtouch::rootCategory[] = {
     { "start",                  start,                  LUNA_METHOD_FLAGS_NONE},
     { "stop",                   stop,                   LUNA_METHOD_FLAGS_NONE},
-    { "getState",               getState,               LUNA_METHOD_FLAGS_NONE},
     { "getResponse",            getResponse,            LUNA_METHOD_FLAGS_NONE},
     { NULL, NULL },
 };
